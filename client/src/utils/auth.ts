@@ -24,6 +24,7 @@ class AuthService {
       return false;
     }
     return false;
+  }
 
     getToken(): string {
       // TODO: return the token
@@ -45,6 +46,5 @@ class AuthService {
       window.location.assign('/login');
     }
   }
-}
 
 export default new AuthService();
